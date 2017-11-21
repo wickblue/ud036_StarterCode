@@ -1,6 +1,8 @@
 import fresh_tomatoes
 import media
 
+# create individual movie variables with characteristics
+
 inception = media.Movie("Inception",
                         "Heist inside dream world.",
                         "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
@@ -31,7 +33,11 @@ the_godfather = media.Movie("The Godfather",
                             "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
                             "https://www.youtube.com/watch?v=5DO-nDW43Ik")
 
+# creates an array of the movies defined above
+
 movies = [inception, inglorious_bastards, american_psycho, the_social_network, good_will_hunting, the_godfather]
 
+
+# opens up final web page and creates HTML file
 fresh_tomatoes.open_movies_page(movies)
 
