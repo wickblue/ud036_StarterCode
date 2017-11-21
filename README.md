@@ -4,9 +4,7 @@ The objective of this program is to launch a movie trailer website, allowing vie
 
 # How to Launch
 
-Clone the repository to run on your local machine by typing:
-
-> git clone https://github.com/wickblue/ud036_StarterCode
+Download the zip file ud036_StarterCode_Pierce.zip and unzip to unlock contents
 
 You must have Python installed on your computer to run these files.
 
